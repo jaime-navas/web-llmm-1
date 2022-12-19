@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIATI</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="shortcut icon" href="./images/viati-logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+        <a href="#">Home</a>
+        <a href="#nexttrips">Next trips (Available)</a>
+        <a href="#alltrips">All trips</a>
+        <a href="#memories">Memories</a>
+        <a href="#contact">Contact</a>
+        <!-- icono desplegable -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+  </nav>
+
+  <section id="hero">
+    <div id="titulo-hero">
+      <strong>VIATI</strong>
+    </div>
+    <svg id="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ddd" fill-opacity="1" d="M0,128L34.3,144C68.6,160,137,192,206,224C274.3,256,343,288,411,282.7C480,277,549,235,617,224C685.7,213,754,235,823,245.3C891.4,256,960,256,1029,266.7C1097.1,277,1166,299,1234,304C1302.9,309,1371,299,1406,293.3L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+  </section>
+
+  <!-- <div id="wrapper"> -->
+  <section id="nexttrips">
+    <div class="titulo-section">
+      Next trips
+    </div>
+    <div class="grid-tripcards">
+      <div class="col">
+        <div class="card">
+          <img src="./images/galicia.jpg" alt="img-malaga" >
+          <div class="card-text">
+            <strong>Galicia</strong><br>Pontevedra-La Coruña
+            <p>5 days</p>
+            <p>350€</p>
+            <!-- vínculo con forma de botón-->
+            <a href="">Sign up!</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/lanzarote.jpg" alt="foto ciudad" >
+          <div class="card-text">
+            <strong>Lanzarote</strong>
+            <p>5 days</p>
+            <p>300€</p>
+            <a href="">Sign up!</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/florencia.jpg" alt="img-florencia" >
+          <div class="card-text">
+            <strong>Florence</strong>
+            <p>4 days</p>
+            <p>350€</p>
+            <a href="">Sign up!</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/oporto.jpg" alt="img-porto" >
+          <div class="card-text">
+            <strong>Porto</strong>
+            <p>3 days</p>
+            <p>200€</p>
+            <a href="">Sign up!</a>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <section id="alltrips">
+    <div class="titulo-section">
+      All our trips
+    </div>
+    <h1>Spain</h1>
+    <div class="grid-tripcards">
+        <div class="col">
+          <div class="card">
+            <img src="./images/galicia.jpg" alt="img-malaga" >
+            <div class="card-text">
+              <strong>Galicia</strong><br>Pontevedra-La Coruña
+              <p>5 days</p>
+              <p>350€</p>
+              <!-- vínculo con forma de botón-->
+              <a href="">Sign up!</a>
+            </div>
+          </div> 
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/madrid.jpg" alt="img-rome" >
+            <div class="card-text">
+              <strong>Madrid</strong>
+              <p>4 days</p>
+              <p>400€</p>
+            </div>
+          </div> 
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/lanzarote.jpg" alt="foto ciudad" >
+            <div class="card-text">
+              <strong>Lanzarote</strong>
+              <p>5 days</p>
+              <p>300€</p>
+              <a href="">Sign up!</a>
+            </div>
+          </div> 
+        </div>
+    </div>
+    <h1>Italy</h1>
+    <div class="grid-tripcards">  
+      <div class="col">
+        <div class="card">
+          <img src="./images/rome-colisseum.jpg" alt="img-roma" >
+          <div class="card-text">
+            <strong>Rome</strong>
+            <p>4 days</p>
+            <p>430€</p>
+          </div>
+        </div> 
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/florencia.jpg" alt="img-florencia" >
+          <div class="card-text">
+            <strong>Florence</strong>
+            <p>4 days</p>
+            <p>350€</p>
+            <!-- vínculo con forma de botón-->
+            <a href="">Sign up!</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/milan.jpg" alt="img-milan" >
+          <div class="card-text">
+            <strong>Milan</strong>
+            <p>3 days</p>
+            <p>375</p>
+          </div>
+        </div> 
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./images/venecia.jpg" alt="img-venecia" >
+          <div class="card-text">
+            <strong>Venice</strong>
+            <p>3 days</p>
+            <p>400€</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <h1>Portugal</h1>
+    <div class="grid-tripcards">
+        <div class="col">
+          <div class="card">
+            <img src="./images/oporto.jpg" alt="img-porto" >
+            <div class="card-text">
+              <strong>Porto</strong>
+              <p>3 days</p>
+              <p>200€</p>
+              <a href="">Sign up!</a>
+            </div>
+          </div> 
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/lisboa.jpg" alt="img-lisbon" >
+            <div class="card-text">
+              <strong>Lisbon</strong>
+              <p>3 days</p>
+              <p>200€</p>
+            </div>
+          </div> 
+        </div>
+    </div>
+
+
+  </section>
+
+  <section id="about">
+    <div class="titulo-section">
+      About us
+    </div>
+    Our name comes from the latin word <em>viaticus</em> : <br>"Pertaining to traveling or a journey"
+    <p>We started this journey in 2003, in Málaga.</p>
+    <p>Since then, the same team of 10 have gained experience by trying to make people enjoy this journeys as much as we do.</p>
+    <p>We are looking forward to having you with us!</p>
+  </section>
+
+  <section id="memories">
+    <div class="titulo-section">
+      Memories with Viati
+    </div>
+
+
+<!------------------------------------------------------------------------------------------->
+<!--
+snipped tomado de:
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+Posteriormente modificado
+-->
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="./images/group1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="./images/group2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="./images/group3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="./images/group4.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="./images/group5.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="./images/group6.jpg" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="./images/group1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Lanzarote 2016">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/group2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Rome 2019">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/group3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Lisbon 2021">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/group4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Galicia 2018">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/group5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Galicia 2020">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/group6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Venice 2017">
+        </div>
+      </div>
+    </div>
+<!------------------------------------------------------------------------------------------->
+
+  </section>
+  <!-- </div> -->
+
+  <footer id="contact">
+    <div class="gridfooter">
+      <div>
+          <img src="./images/viati-logo.png" alt="VIATI-logo">
+      </div>
+      <div style="margin: auto">
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      </div>
+      <div>
+        Contacto:
+        <li><b>Dirección: </b>C/ Frederick Terman</li>
+        <li><b>Teléfono: </b>123 55 67 89</li>
+        <li><b>e-mail: </b>info@viati.com</li>
+      </div>
+  </div>
+  </footer>
+
+  <script src="./js/funciones.js"></script>
+
+</body>
+
+</html>
